@@ -9,6 +9,13 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.image-full {
+  max-height: 350px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
 /*======================
     Typography
 ========================*/
@@ -21,6 +28,11 @@ h3 {
   color: #143774;
   margin-top: 0;
 }
+
+h3 {
+  color: #1792d2;
+}
+
 h1 {
   font-size: 2rem;
   margin: 0;
@@ -173,6 +185,10 @@ nav a:focus {
 .widget-recent-post:last-child {
   border: 0;
   margin: 0;
+}
+
+.widget-recent-post-title {
+  color: #143774;
 }
 
 .widget-image {
